@@ -1,0 +1,152 @@
+@font-face {
+ font-family: "Input Sans Comp";
+ src: url("/input.ttf") format("truetype");
+ font-style: normal;
+ font-weight: normal;
+}
+
+body {
+    font-family: 'Input Sans Comp';
+    color: #233;
+}
+
+
+
+.ib {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+}
+.row {
+    display: table;
+    table-layout: fixed;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+
+}
+
+.account {
+    padding-left: 1.2em;
+    width: 7em;
+    max-width: 7em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tiny {
+    font-size: 0.5em;
+}
+
+.Karolina {
+    background-color: #bd8;
+}
+
+.Ccard {
+    background-color: #9fe;
+}
+
+.Checking {
+    background-color: #fe9;
+}
+
+.Capone {
+    background-color: #cf9;
+}
+
+.Salary {
+    background-color: #adf;
+}
+
+.Mom {
+    background-color: #fcc;
+}
+
+.Food {
+    background-color: #fd8;
+}
+
+.Cash {
+    background-color: #d8f;
+}
+
+.MTA {
+    background-color: #98f;
+}
+
+.Facebook401k {
+    background-color: #ddd;
+}
+
+.Rent, .RentPayable {
+    background-color: #faa;
+}
+
+.right {
+    text-align: right;
+}
+
+.report-row {
+    display: table;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.ib-plain {
+    display: table-cell;
+    line-height: 1.4em;
+
+}
+
+.spacer { display: inline-block;
+	  vertical-align: top;
+	  height: 1.4em;
+
+	  width: 0.5em;
+	  margin-right: 0.5em;
+	  border-right: 1px solid #bbb; }
+
+.negative { color: #b00; }
+.zero { color: #bbb; }
+.same { color: #bbb; }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    position: fixed;
+    top: 0px;
+    height: 36px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #eee;
+    background-color: #444;
+    text-align: center;
+    padding: 6px;
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: #777;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    margin-top: 36px;
+}
